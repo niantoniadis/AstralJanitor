@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #BEBBBB;
+    background-color: #595557;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #C1A0A8;
+    margin-bottom: 0;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 87vh;
+    margin: 0 auto;
+}
+
+#container {
+    width: 96%;
+    margin: auto;
+}
+
+hr {
+    border-color: #BEBBBB;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    line-height: 2rem;
+}
+
+.screenshot {
+    width: 45%;
+}
+
+header {
+    background-color: #C1A0A8;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #595557;
+    width: 96%;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: #BEBBBB;
+    font-weight: bolder;
+}
+
+#last {
+    padding-right: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #595557;
+}
+
+#nav {
+    display: flex;
+    margin: auto 0;
+    justify-content: space-between;
+    min-width: 370px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    height: 90px;
+    background-color: #BEBBBB;
+    color: #595557;
+    margin: 2.5% 0 0 0;
+    text-align: left;
+}
+
+footer p {
+    margin: 0 2%;
+    font-weight: bold;
+}
+
+.lastP {
+    margin-bottom: 120px;
+}
+
+.lastP a {
+    color: #BEBBBB;
+}
+
+.lastP a:hover {
+    color: #C1A0A8;
+}
+
+#game {
+    margin: 150px auto auto auto;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1400px){
+    p {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 2.25rem;
+    }
+    h1 {
+        font-size: 3.25rem;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    nav {
+        flex-direction: column; 
+        justify-content: space-evenly;
+    }
+    #nav {
+        margin: auto;
+        margin-bottom: 1.5rem;
+        height: 119px;
+        flex-direction: column-reverse;
+        min-width: 200px;
+        justify-content: space-evenly;
+    }
+    a {
+        margin: 0 auto;
+    }
+    h1 {
+        padding-top: 2rem; 
+        padding-bottom: 1.5rem;
+        margin: 0;
+    }
+    .screenshot {
+        display: block;
+        margin: 0 auto;
+    }
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    footer p {
+        text-align: left;
+    }
+}

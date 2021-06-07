@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
+        <meta charset="UTF-8">
+        <title>Astral Janitor Documentation</title>
+    </head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><h1>Astral Janitor</h1></a>
+            <div id="nav">
+                <a href="project.html">Play</a>
+                <a href="proposal.html">Proposal</a>
+                <a href="documentation.html" id="last">Documentation</a>
+            </div>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <div id="container">
+            <h2>Process</h2>
+            <p>
+                1. I started my game development process by figuring out which JavaScript files would handle which aspects of my game.
+                <br>2. I decided having three files would be the most organized and efficient architecture, one to handle the main game
+                and its variables, one for the classes, and one with additional helper methods.
+                <br>3. Next, it was time to create the structure for my main game file and create the classes. I decided to base the structure off of the Circle Blaster homework
+                since the way the functions were broken up made logical sense to me.
+                <br>4. Once my classes had proper constructors and the structure of the main game file was established it was time to start working on the collision methods. I had to create
+                two custom collision detection methods due to the unique shapes of the stars. One was basic circle collision which was simple enough, and the other was collision for a circle with
+                a sliver missing. This second collision detection method took me a considerable amount of time to figure out and still has some bugs.
+            </p>
+            <h2>Obstacles</h2>
+            <p>
+                The biggest obstacle I ran into was creating the collision for the stars. There are still many issues with the collision that I simply did not have enough time to trouble shoot,
+                due to how late in the process I started working on the collision. The main issue with the collision was that the start and end angles in the star class were based off of a different
+                coordinate plane than the angle from the star to the colliing entity, sadly I could not find a way to reliably reconcile the two in time. 
+            </p>
+            <h2>What I Learned</h2>
+            <p>
+                There are a few ways I would change my process for next time. First I would focus more on the collision methods and algorithms behind the gameplay first before working on aesthetics
+                "game feel." I would also comment my code more consistently next time since it became hard to navigate my code towads the end of this project. Finally I would lower the scope for next
+                time since I ended up having to rethink my entrie concept half way through.
+            </p>
+            <h2>Resources</h2>
+            <p class="lastP">
+                Used for keyboard input help: <a href="https://www.youtube.com/watch?v=cP-_beFbz_Q">https://www.youtube.com/watch?v=cP-_beFbz_Q</a>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright 2019</p>
+        <p>Created by Nico Antoniadis</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
+        <meta charset="UTF-8">
+        <title>Astral Janitor Game</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            #wrapper {
+                width: 80%;
+                margin: auto;
+                margin-top: 5%;
+            }
+            #game {
+                width: 80%;
+            }
+
+            @media only screen and (max-width: 1310px) {
+                #wrapper {
+                    width: 100%;
+                }
+                #game {
+                    width: 80%;
+                }
+            }
+        </style>
+    </head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.0/pixi.min.js"></script>
+    <script src = "js/utilities.js"></script>
+    <script src = "js/classes.js"></script>
+    <script src = "js/main.js"></script>
+    <header>
+        <nav>
+            <a href="index.html"><h1>Astral Janitor</h1></a>
+            <div id="nav">
+                <a href="project.html">Play</a>
+                <a href="proposal.html">Proposal</a>
+                <a href="documentation.html" id="last">Documentation</a>
+            </div>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <div id="game" onload="">
+        </div>
+    </div>
+    <footer>
+        <p>Copyright 2019</p>
+        <p>Created by Nico Antoniadis</p>
+    </footer>
+</body>
+</html>
